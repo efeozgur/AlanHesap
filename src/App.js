@@ -11,11 +11,8 @@ export default class App extends Component {
     sayfaismi: '',
   }
 
-
   render() {
-    let a = 123;
     return (
-
       <View style={styles.viewStyles}>
         <ImageBackground style={styles.fixed2} source={require('./img/bg3.jpg')} />
         <View style={styles.subViewStyles}>
