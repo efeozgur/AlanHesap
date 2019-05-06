@@ -19,7 +19,7 @@ const Buton = ({ butonText }) => {
 
 const styles = {
     textStyle: {
-        fontFamily: Fonts.Vinchand,
+        fontFamily: 'Gugi-Regular',
         backgroundColor: '#fff',
         borderRadius: 10,
         borderStyle: 'dotted',
