@@ -43,6 +43,8 @@
 		100370EC6CEF46B5B4BE4464 /* VINCHAND.otf in Resources */ = {isa = PBXBuildFile; fileRef = 22CAA2F0C59D4C20B423D95C /* VINCHAND.otf */; };
 		8AC61D133C1C4A41892337A4 /* Gugi-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 23F5CD2628BE449EB62E2E40 /* Gugi-Regular.ttf */; };
 		F9AABA2057C74C50B49ADCBA /* ZCOOLKuaiLe-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 460B24BF991149BCA3511D64 /* ZCOOLKuaiLe-Regular.ttf */; };
+		4AF2EDCDD97341D69D13E208 /* Slabo13px-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06193122D252446D99E1BA2B /* Slabo13px-Regular.ttf */; };
+		2D245BB16C184D2D8FBB8135 /* Slabo27px-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8AAC92211CB24612B777296E /* Slabo27px-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -354,6 +356,8 @@
 		22CAA2F0C59D4C20B423D95C /* VINCHAND.otf */ = {isa = PBXFileReference; name = "VINCHAND.otf"; path = "../assets/fonts/VINCHAND.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		23F5CD2628BE449EB62E2E40 /* Gugi-Regular.ttf */ = {isa = PBXFileReference; name = "Gugi-Regular.ttf"; path = "../assets/fonts/Gugi-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		460B24BF991149BCA3511D64 /* ZCOOLKuaiLe-Regular.ttf */ = {isa = PBXFileReference; name = "ZCOOLKuaiLe-Regular.ttf"; path = "../assets/fonts/ZCOOLKuaiLe-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		06193122D252446D99E1BA2B /* Slabo13px-Regular.ttf */ = {isa = PBXFileReference; name = "Slabo13px-Regular.ttf"; path = "../assets/fonts/Slabo13px-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8AAC92211CB24612B777296E /* Slabo27px-Regular.ttf */ = {isa = PBXFileReference; name = "Slabo27px-Regular.ttf"; path = "../assets/fonts/Slabo27px-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -626,6 +630,8 @@
 				22CAA2F0C59D4C20B423D95C /* VINCHAND.otf */,
 				23F5CD2628BE449EB62E2E40 /* Gugi-Regular.ttf */,
 				460B24BF991149BCA3511D64 /* ZCOOLKuaiLe-Regular.ttf */,
+				06193122D252446D99E1BA2B /* Slabo13px-Regular.ttf */,
+				8AAC92211CB24612B777296E /* Slabo27px-Regular.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1081,6 +1087,8 @@
 				100370EC6CEF46B5B4BE4464 /* VINCHAND.otf in Resources */,
 				8AC61D133C1C4A41892337A4 /* Gugi-Regular.ttf in Resources */,
 				F9AABA2057C74C50B49ADCBA /* ZCOOLKuaiLe-Regular.ttf in Resources */,
+				4AF2EDCDD97341D69D13E208 /* Slabo13px-Regular.ttf in Resources */,
+				2D245BB16C184D2D8FBB8135 /* Slabo27px-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

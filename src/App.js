@@ -1,22 +1,23 @@
+/* eslint-disable global-require */
 
 import React, { Component } from 'react';
-import { Dimensions, View, ImageBackground, Text } from 'react-native';
-import Buton from './src/buton';
-import { Fonts } from './src/utils/Fonts';
-const { height } = Dimensions.get('window');
+import { View, ImageBackground, Text } from 'react-native';
+import { Actions } from 'react-native-router-flux';
+import Buton from './buton';
+
 
 export default class App extends Component {
   render() {
     return (
 
       <View style={styles.viewStyles}>
-        <ImageBackground style={styles.fixed2} source={require('./src/img/bg3.jpg')} />
+        <ImageBackground style={styles.fixed2} source={require('./img/bg3.jpg')} />
         <View style={styles.subViewStyles}>
-          <ImageBackground style={styles.fixed} source={require('./src/img/bg3.jpg')} />
+          <ImageBackground style={styles.fixed} source={require('./img/bg3.jpg')} />
           <Text style={styles.textStyles}>Alan Hesaplama Araçları</Text>
         </View>
         <View style={styles.altViewStyles}>
-          <Buton butonText="Dikdörtgen Çevre ve Alanı Hesaplama" />
+          <Buton onPress={() => Actions.calc()} butonText="Dikdörtgen Çevre ve Alanı Hesaplama" />
           <Buton butonText="Kare Çevre ve Alanı Hesaplama" />
           <Buton butonText="Dik Üçgen Çevre ve Alanı Hesaplama" />
           <Buton butonText="İkizkenar Üçgen Çevre ve Alanı Hesaplama" />
@@ -51,7 +52,7 @@ const styles = {
   },
 
 
-  textStyles: { fontSize: 60, color: '#fff', padding: 10, borderRadius: 5, fontFamily: 'VINCHAND' },
+  textStyles: { fontSize: 30, color: '#fff', padding: 10, borderRadius: 5, fontFamily: 'Slabo17px-Regular' },
   subViewStyles: { backgroundColor: '#800574', flex: 1, justifyContent: 'center', alignItems: 'center' },
   viewStyles: { flex: 1, backgroundColor: '#800574', },
   altViewStyles: { margin: 10, flexDirection: 'row', justifyContent: 'center', flexWrap: 'wrap', flex: 3 },

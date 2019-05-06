@@ -28,12 +28,9 @@
   "jest": {
     "preset": "react-native"
   },
-
   "standard": {
     "ignore": [
       "src/**/*.json"
     ]
   }
-
-
 }
