@@ -2,31 +2,32 @@
 
 import React, { Component } from 'react';
 import { View, ImageBackground, Text } from 'react-native';
-import { Actions } from 'react-native-router-flux';
-import Buton from './buton';
+
+import RenderButton from './components/RenderButton';
 
 
 export default class App extends Component {
+  state = {
+    sayfaismi: '',
+  }
+
+
   render() {
+    let a = 123;
     return (
 
       <View style={styles.viewStyles}>
         <ImageBackground style={styles.fixed2} source={require('./img/bg3.jpg')} />
         <View style={styles.subViewStyles}>
           <ImageBackground style={styles.fixed} source={require('./img/bg3.jpg')} />
-          <Text style={styles.textStyles}>Alan Hesaplama Araçları</Text>
+          <Text style={styles.textStyles}>Çevre ve Alan Hesaplama Araçları</Text>
         </View>
         <View style={styles.altViewStyles}>
-          <Buton onPress={() => Actions.calc()} butonText="Dikdörtgen Çevre ve Alanı Hesaplama" />
-          <Buton butonText="Kare Çevre ve Alanı Hesaplama" />
-          <Buton butonText="Dik Üçgen Çevre ve Alanı Hesaplama" />
-          <Buton butonText="İkizkenar Üçgen Çevre ve Alanı Hesaplama" />
-          <Buton butonText="Eşkenar Üçgen Çevre ve Alanı Hesaplama" />
-          <Buton butonText="Çeşitkenar Üçgen Çevre ve Alanı Hesaplama" />
-          <Buton butonText="Daire Çevre ve Alanı Hesaplama" />
-          <Buton butonText="Yamuk Çevre ve Alanı Hesaplama" />
-          <Buton butonText="Elips Çevre ve Alanı Hesaplama" />
-          <Buton butonText="Paralelkenar Çevre ve Alanı Hesaplama" />
+          <RenderButton text="Dikdörtgen Çevre ve Alan Hesaplama" />
+          <RenderButton text="Kare Çevre ve Alanı Hesaplama" />
+          <RenderButton text="Dik Üçgen Çevre ve Alanı Hesaplama" />
+          <RenderButton text="İkizkenar Üçgen Çevre ve Alanı Hesaplama" />
+          <RenderButton text="Eşkenar Üçgen Çevre ve Alanı Hesaplama" />
         </View>
       </View >
     );
@@ -52,7 +53,7 @@ const styles = {
   },
 
 
-  textStyles: { fontSize: 30, color: '#fff', padding: 10, borderRadius: 5, fontFamily: 'Slabo17px-Regular' },
+  textStyles: { fontSize: 30, color: '#fff', padding: 10, borderRadius: 5, fontFamily: 'Slabo17px-Regular', textAlign: 'center' },
   subViewStyles: { backgroundColor: '#800574', flex: 1, justifyContent: 'center', alignItems: 'center' },
   viewStyles: { flex: 1, backgroundColor: '#800574', },
   altViewStyles: { margin: 10, flexDirection: 'row', justifyContent: 'center', flexWrap: 'wrap', flex: 3 },

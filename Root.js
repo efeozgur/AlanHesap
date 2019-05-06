@@ -8,7 +8,7 @@ const Root = () => {
         <Router>
             <Scene key="kimlik">
                 <Scene key="main" title="ANASAYFA" hideNavBar initial component={App} />
-                <Scene key="calc" title="ANASAYFA" component={Calculate} />
+                <Scene key="calc" hideNavBar title="ANASAYFA" component={Calculate} />
             </Scene>
 
         </Router>
