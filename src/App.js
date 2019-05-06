@@ -28,6 +28,11 @@ export default class App extends Component {
           <RenderButton text="Dik Üçgen Çevre ve Alanı Hesaplama" />
           <RenderButton text="İkizkenar Üçgen Çevre ve Alanı Hesaplama" />
           <RenderButton text="Eşkenar Üçgen Çevre ve Alanı Hesaplama" />
+          <RenderButton text="Çeşitkenar Üçgen Çevre ve Alanı Hesaplama" />
+          <RenderButton text="Daire Çevre ve Alanı Hesaplama" />
+          <RenderButton text="Yamuk Çevre ve Alanı Hesaplama" />
+          <RenderButton text="Elips Çevre ve Alanı Hesaplama" />
+          <RenderButton text="Paralelkenar Çevre ve Alanı Hesaplama" />
         </View>
       </View >
     );

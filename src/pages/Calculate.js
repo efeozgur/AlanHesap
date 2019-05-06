@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { View, Text } from 'react-native';
-import Header from '../components/Header';
+import { View, Text, ImageBackground } from 'react-native';
+
 
 class Calculate extends Component {
     constructor(props) {
@@ -9,6 +9,7 @@ class Calculate extends Component {
     render() {
         return (
             <View style={styles.containerStyle}>
+                <ImageBackground style={styles.fixed2} source={require('../img/bg3.jpg')} />
                 <Text style={styles.textStyle}>{this.props.text}</Text>
             </View>
         );
@@ -31,7 +32,16 @@ const styles = {
         width: '100%',
         textAlign: 'center',
         fontFamily: 'VINCHAND',
-    }
+    },
+
+    fixed2: {
+        position: "absolute",
+        top: 0,
+        left: 0,
+        right: 0,
+        bottom: 0,
+        opacity: 0.3
+    },
 }
 
 export default Calculate; 
