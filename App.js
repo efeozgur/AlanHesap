@@ -51,7 +51,7 @@ const styles = {
   },
 
 
-  textStyles: { fontSize: 60, color: '#fff', padding: 10, borderRadius: 5, fontFamily: Fonts.Vinchand },
+  textStyles: { fontSize: 60, color: '#fff', padding: 10, borderRadius: 5, fontFamily: 'VINCHAND' },
   subViewStyles: { backgroundColor: '#800574', flex: 1, justifyContent: 'center', alignItems: 'center' },
   viewStyles: { flex: 1, backgroundColor: '#800574', },
   altViewStyles: { margin: 10, flexDirection: 'row', justifyContent: 'center', flexWrap: 'wrap', flex: 3 },

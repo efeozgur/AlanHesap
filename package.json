@@ -2,17 +2,14 @@
   "name": "AlanHesap",
   "version": "0.0.1",
   "private": true,
-
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
   "rnpm": {
     "assets": [
       "./assets/fonts"
     ]
-  },
-
-
-  "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
   },
   "dependencies": {
     "react": "16.8.3",
@@ -32,6 +29,11 @@
     "preset": "react-native"
   },
 
+  "standard": {
+    "ignore": [
+      "src/**/*.json"
+    ]
+  }
 
 
 }
