@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { View, Text, ImageBackground } from 'react-native';
-
+import Dikdortgen from './Dikdortgen';
 
 class Calculate extends Component {
     constructor(props) {
@@ -11,6 +11,7 @@ class Calculate extends Component {
             <View style={styles.containerStyle}>
                 <ImageBackground style={styles.fixed2} source={require('../img/bg3.jpg')} />
                 <Text style={styles.textStyle}>{this.props.text}</Text>
+                <Dikdortgen />
             </View>
         );
     }
@@ -27,11 +28,12 @@ const styles = {
 
     textStyle: {
         color: '#000',
-        padding: 10,
+        padding: 20,
         backgroundColor: '#fff',
         width: '100%',
         textAlign: 'center',
-        fontFamily: 'VINCHAND',
+        fontFamily: 'Gugi-Regular',
+
     },
 
     fixed2: {

@@ -45,6 +45,12 @@
 		F9AABA2057C74C50B49ADCBA /* ZCOOLKuaiLe-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 460B24BF991149BCA3511D64 /* ZCOOLKuaiLe-Regular.ttf */; };
 		4AF2EDCDD97341D69D13E208 /* Slabo13px-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06193122D252446D99E1BA2B /* Slabo13px-Regular.ttf */; };
 		2D245BB16C184D2D8FBB8135 /* Slabo27px-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8AAC92211CB24612B777296E /* Slabo27px-Regular.ttf */; };
+		8353550FAE6D419CB10CEF15 /* Cocotte-ExtraLight-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6E7D1243B974B4F9B23A94E /* Cocotte-ExtraLight-trial.ttf */; };
+		DB7D799CBDC3456285837899 /* Cocotte-Heavy-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB956ACD88CE4BF9B95C7F95 /* Cocotte-Heavy-trial.ttf */; };
+		5E38E3BB45C146C881AFF9D2 /* Cocotte-Regular-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F545937A522D4BC59F1E0E36 /* Cocotte-Regular-trial.ttf */; };
+		9338374855BB46E8BBD17A2B /* CocotteAlternate-ExtLight-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9039B4559CAE4BD1B2EC5F98 /* CocotteAlternate-ExtLight-trial.ttf */; };
+		E6C1BDA7BE0148CE8F89A565 /* CocotteAlternate-Heavy-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA87638DD85D48E9A7B1257A /* CocotteAlternate-Heavy-trial.ttf */; };
+		0A0D2F7BDC574A9EBBBDD7DA /* CocotteAlternate-Regular-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D88563EBC8B04DCB85E51649 /* CocotteAlternate-Regular-trial.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -358,6 +364,12 @@
 		460B24BF991149BCA3511D64 /* ZCOOLKuaiLe-Regular.ttf */ = {isa = PBXFileReference; name = "ZCOOLKuaiLe-Regular.ttf"; path = "../assets/fonts/ZCOOLKuaiLe-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		06193122D252446D99E1BA2B /* Slabo13px-Regular.ttf */ = {isa = PBXFileReference; name = "Slabo13px-Regular.ttf"; path = "../assets/fonts/Slabo13px-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		8AAC92211CB24612B777296E /* Slabo27px-Regular.ttf */ = {isa = PBXFileReference; name = "Slabo27px-Regular.ttf"; path = "../assets/fonts/Slabo27px-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B6E7D1243B974B4F9B23A94E /* Cocotte-ExtraLight-trial.ttf */ = {isa = PBXFileReference; name = "Cocotte-ExtraLight-trial.ttf"; path = "../assets/fonts/Cocotte-ExtraLight-trial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FB956ACD88CE4BF9B95C7F95 /* Cocotte-Heavy-trial.ttf */ = {isa = PBXFileReference; name = "Cocotte-Heavy-trial.ttf"; path = "../assets/fonts/Cocotte-Heavy-trial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F545937A522D4BC59F1E0E36 /* Cocotte-Regular-trial.ttf */ = {isa = PBXFileReference; name = "Cocotte-Regular-trial.ttf"; path = "../assets/fonts/Cocotte-Regular-trial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9039B4559CAE4BD1B2EC5F98 /* CocotteAlternate-ExtLight-trial.ttf */ = {isa = PBXFileReference; name = "CocotteAlternate-ExtLight-trial.ttf"; path = "../assets/fonts/CocotteAlternate-ExtLight-trial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EA87638DD85D48E9A7B1257A /* CocotteAlternate-Heavy-trial.ttf */ = {isa = PBXFileReference; name = "CocotteAlternate-Heavy-trial.ttf"; path = "../assets/fonts/CocotteAlternate-Heavy-trial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D88563EBC8B04DCB85E51649 /* CocotteAlternate-Regular-trial.ttf */ = {isa = PBXFileReference; name = "CocotteAlternate-Regular-trial.ttf"; path = "../assets/fonts/CocotteAlternate-Regular-trial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -632,6 +644,12 @@
 				460B24BF991149BCA3511D64 /* ZCOOLKuaiLe-Regular.ttf */,
 				06193122D252446D99E1BA2B /* Slabo13px-Regular.ttf */,
 				8AAC92211CB24612B777296E /* Slabo27px-Regular.ttf */,
+				B6E7D1243B974B4F9B23A94E /* Cocotte-ExtraLight-trial.ttf */,
+				FB956ACD88CE4BF9B95C7F95 /* Cocotte-Heavy-trial.ttf */,
+				F545937A522D4BC59F1E0E36 /* Cocotte-Regular-trial.ttf */,
+				9039B4559CAE4BD1B2EC5F98 /* CocotteAlternate-ExtLight-trial.ttf */,
+				EA87638DD85D48E9A7B1257A /* CocotteAlternate-Heavy-trial.ttf */,
+				D88563EBC8B04DCB85E51649 /* CocotteAlternate-Regular-trial.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1089,6 +1107,12 @@
 				F9AABA2057C74C50B49ADCBA /* ZCOOLKuaiLe-Regular.ttf in Resources */,
 				4AF2EDCDD97341D69D13E208 /* Slabo13px-Regular.ttf in Resources */,
 				2D245BB16C184D2D8FBB8135 /* Slabo27px-Regular.ttf in Resources */,
+				8353550FAE6D419CB10CEF15 /* Cocotte-ExtraLight-trial.ttf in Resources */,
+				DB7D799CBDC3456285837899 /* Cocotte-Heavy-trial.ttf in Resources */,
+				5E38E3BB45C146C881AFF9D2 /* Cocotte-Regular-trial.ttf in Resources */,
+				9338374855BB46E8BBD17A2B /* CocotteAlternate-ExtLight-trial.ttf in Resources */,
+				E6C1BDA7BE0148CE8F89A565 /* CocotteAlternate-Heavy-trial.ttf in Resources */,
+				0A0D2F7BDC574A9EBBBDD7DA /* CocotteAlternate-Regular-trial.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

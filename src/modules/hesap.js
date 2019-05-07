@@ -1,8 +1,8 @@
 /* eslint-disable no-unused-vars */
 // ✔ Dikdörtgen Çevre ve Alanı Hesaplama
 const dikdortgen = (uzunkenar, kisakenar) => ({
-    cevre: 2 * (uzunkenar + kisakenar),
-    alan: uzunkenar * kisakenar
+    cevre: ((Number(uzunkenar) + Number(kisakenar)) * 2),
+    alan: (uzunkenar * kisakenar)
 });
 
 // ✔ Kare Çevre ve Alanı Hesaplama

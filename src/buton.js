@@ -15,13 +15,13 @@ const Buton = ({ butonText, onPress }) => {
 
 const styles = {
     textStyle: {
-        fontFamily: 'Slabo13px-Regular',
+        fontFamily: 'CocotteAlternate-Regular-trial',
         backgroundColor: '#fff',
         borderRadius: 10,
         borderStyle: 'dotted',
         borderWidth: 1,
         borderColor: 'black',
-        fontSize: 10,
+        fontSize: 12,
         margin: 10,
         padding: 10,
         textAlign: 'center',
